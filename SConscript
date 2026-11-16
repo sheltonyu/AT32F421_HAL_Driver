@@ -3,7 +3,7 @@ import os
 
 cwd = GetCurrentDir()
 path = [os.path.join(cwd, 'inc')]
-src_path = os.path.join(cwd, 'src')
+src_path = 'src'
 
 CPPDEFINES = ['USE_STDPERIPH_DRIVER']
 
